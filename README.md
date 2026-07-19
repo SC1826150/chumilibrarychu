@@ -170,11 +170,11 @@ footer{
 </div>
 
 <div class="card">
-<img src="https://picsum.photos/300/450?random=2">
+<img src="https://drive.google.com/drive/folders/1GOFB0J50Ub8chsJp1XeAJw6Kj2Y6NQW7">
 </div>
 
 <div class="card">
-<img src="https://picsum.photos/300/450?random=3">
+<img src="https://drive.google.com/drive/folders/1GOFB0J50Ub8chsJp1XeAJw6Kj2Y6NQW7">
 </div>
 
 <div class="card">
