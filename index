@@ -1,11 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-<title>Chumi's Library</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chumi's Library</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-<h1>📚 Welcome to Chumi's Library</h1>
-<p>My collection of novels and books.</p>
+
+    <h1>📚 Chumi's Library</h1>
+    <p>Welcome to my digital bookshelf.</p>
+
+    <script src="script.js"></script>
+
 </body>
+
 </html>
