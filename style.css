@@ -23,7 +23,7 @@ overflow-x:hidden;
 
     height:100vh;
 
-    background-image: url("images/background/BHHome.png");
+    background-image: url("images/background/BGHome.png");
 
     background-size:cover;
 
@@ -41,7 +41,7 @@ overflow-x:hidden;
 
     height:100%;
 
-     background-image: url("images/backgrounds/library.jpg");
+     background-image: url("images/background/BGHome.png");
     
     display:flex;
 
