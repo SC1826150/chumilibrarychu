@@ -217,3 +217,15 @@ overflow-x:hidden;
     color:#E96BA8;
 
 }
+.logo{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    font-family:'Parisienne', cursive;
+    font-size:38px;
+    color:#E96BA8;
+}
+
+.flower{
+    font-size:24px;
+}
