@@ -166,7 +166,7 @@ footer{
 <div class="slider">
 
 <div class="card">
-<img src="https://picsum.photos/300/450?random=1">
+<img src="images/225380s.jpg" alt="Example">
 </div>
 
 <div class="card">
