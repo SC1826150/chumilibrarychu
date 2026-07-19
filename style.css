@@ -3,35 +3,24 @@
     padding:0;
     box-sizing:border-box;
 }
-
 html{
     scroll-behavior:smooth;
 }
-
 body{
 font-family: 'Ranade', sans-serif;
-font-color: #000000;
+font-color: #E96BA8;
 background:#FFF8FC;
 overflow-x:hidden;
 }
 /* HERO */
-
 .hero{
-
     width:100%;
-
     height:100vh;
-
     background-image: url("images/background/BGHome.png");
-
     background-size:cover;
-
     background-position:center;
-
     background-repeat:no-repeat;
-
     background-attachment:fixed;
-
 }
 
 .overlay{
@@ -70,7 +59,7 @@ overflow-x:hidden;
 
     margin-top:20px;
 
-    color:black;
+    color:#E96BA8;
 
     font-size:22px;
 
