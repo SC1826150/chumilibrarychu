@@ -264,31 +264,33 @@ color:#E96BA8;
 
     display:grid;
 
-    grid-template-columns:220px 280px 1fr;
+    grid-template-columns:240px 280px minmax(700px,1fr);
 
     gap:25px;
 
-    align-items:stretch;
+    align-items:start;
 
 }
 .right-panel{
 
     display:grid;
 
-    grid-template-rows:auto 180px;
+    grid-template-rows:auto 220px;
 
     gap:25px;
+
+    width:100%;
 
 }
 .right-top{
 
     display:grid;
 
-    grid-template-columns:1fr 1fr;
+    grid-template-columns:2fr 1fr;
 
     gap:20px;
 
-    align-items:stretch;
+    width:100%;
 
 }
 .other-panel{
@@ -567,5 +569,35 @@ color:#E96BA8;
     font-size:34px;
 
     margin-bottom:20px;
+
+}
+.banner-panel{
+
+    width:100%;
+
+    background:white;
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+}
+.banner-panel img{
+
+    width:100%;
+
+    height:100%;
+
+    object-fit:cover;
+
+    display:block;
+
+}
+.preview-panel,
+.other-panel{
+
+    height:100%;
 
 }
