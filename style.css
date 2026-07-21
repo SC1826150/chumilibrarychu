@@ -213,8 +213,8 @@ color:#E96BA8;
 .mc-track{
     display:flex;
     gap:25px;
-    width:max-content;
-    animation:mcScroll 25s linear infinite;
+    width:calc(190px * 12);
+    animation:mcScroll 20s linear infinite;
 }
 
 .mc-card{
@@ -244,13 +244,14 @@ color:#E96BA8;
     color:#555;
     font-weight:600;
 }
+
 @keyframes mcScroll{
 
-    0%{
+    from{
         transform:translateX(0);
     }
 
-    100%{
+    to{
         transform:translateX(-50%);
     }
 
