@@ -325,7 +325,7 @@ color:#E96BA8;
 
 .preview-panel{
     background:#fff;
-    border-radius:20px;
+    border-radius:10px;
     overflow:hidden;
     box-shadow:0 10px 25px rgba(0,0,0,.08);
 }
@@ -338,8 +338,8 @@ color:#E96BA8;
 
 .preview-content{
     margin:20px;
-    padding:20px;
-    border:3px solid #FFD6E8;
+    padding:10px;
+    border:1px solid #FFD6E8;
     border-radius:18px;
     text-align:center;
     background:#FFFDFE;
@@ -347,13 +347,13 @@ color:#E96BA8;
 
 .preview-content h3{
     color:#E96BA8;
-    margin-bottom:15px;
+    margin-bottom:5px;
     font-size:28px;
 }
 
 .preview-content p{
     color:#666;
-    line-height:1.7;
+    line-height:1;
     margin-bottom:25px;
 }
 
