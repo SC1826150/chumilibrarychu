@@ -174,44 +174,27 @@ color:#E96BA8;
 
 }
 .parallax-overlord{
-
     width:100%;
-
     height:320px;
-
     background:
     linear-gradient(rgba(255,248,252,.45), rgba(255,248,252,.45)),
-    url("images/backgrounds/overlord-bg.jpg");
-
+    url("images/Gong/BaiGongMC.png");
     background-size:cover;
-
     background-position:center;
-
     background-repeat:no-repeat;
-
     background-attachment:fixed;
-
     display:flex;
-
     justify-content:center;
-
     align-items:center;
-
 }
 
 .parallax-overlord h2{
-
     font-size:50px;
-
     color:#E96BA8;
-
+    text-align: left;
     text-shadow:2px 2px 8px white;
-
 }
 .books{
-
-    padding:70px 8%;
-
-    background:white;
-
+    padding:50px 8%;
+    background:#E96BA8;
 }
