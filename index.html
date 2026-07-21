@@ -77,7 +77,7 @@
 
             <ul>
 
-                <li class="active">Lu Changge</li>
+          <li onclick="showBaiGong()">Lu Changge</li>
                 <li>Bai Gong</li>
                 <li>Cang Wu</li>
                 <li>Fang Yuan</li>
@@ -89,23 +89,26 @@
         </div>
 
         <!-- RIGHT COLUMN -->
-        <div class="preview-panel">
+       <div class="preview-panel">
 
-            <img
-                src="images/Gong/LuChangge.png"
-                alt="Lu Changge">
+    <img
+        id="novelImage"
+        src="images/Gong/LuChangge.png"
+        alt="Lu Changge">
 
-            <h3>Lu Changge</h3>
+    <h3 id="novelTitle">
+        Lu Changge
+    </h3>
 
-            <p>
-                A ruthless overlord whose strength shakes the heavens.
-            </p>
+    <p id="novelDescription">
+        A ruthless overlord whose strength shakes the heavens.
+    </p>
 
-            <a href="#" class="read-btn">
-                View Library
-            </a>
+    <a href="#" class="read-btn">
+        View Library
+    </a>
 
-        </div>
+</div>
 
     </div>
 
@@ -182,5 +185,21 @@
 
 </section>
 <script src="script.js"></script>
+<script>
+
+function showBaiGong(){
+
+    document.getElementById("novelImage").src =
+    "images/Gong/BaiGongMC.png";
+
+    document.getElementById("novelTitle").innerHTML =
+    "Bai Gong";
+
+    document.getElementById("novelDescription").innerHTML =
+    "A terrifying madman whose devotion knows no limits.";
+
+}
+
+</script>
 </body>
 </html>
