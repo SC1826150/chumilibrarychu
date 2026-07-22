@@ -33,147 +33,454 @@
         </a>
       </div>
     </section>
+
+     <!-- ==================================== -->
+      <!-- SECOND PAGE -->
+      <!-- ==================================== -->
     <section class="secondpage">
-      <!-- ======================= -->
+      <!-- YEAR SELECTOR -->
+      <div class="year-selector">
+        <button class="year active"
+          onclick="changeYear('thousand', this)">
+        Thousand Years Favorite
+        </button>
+        <button class="year"
+          onclick="changeYear('hundred', this)">
+        Hundred Years Favorite
+        </button>
+        <button class="year"
+          onclick="changeYear('halloffame', this)">
+        Hall of Fame
+        </button>
+        <button class="year"
+          onclick="changeYear('recentobsession', this)">
+        Recent Obsession
+        </button>
+        <button class="year"
+          onclick="changeYear('currentlyreading', this)">
+        Currently Reading
+        </button>
+        <button class="year"
+          onclick="changeYear('waiting', this)">
+        Waiting for Updates
+        </button>
+        <button class="year"
+          onclick="changeYear('promising', this)">
+        Promising
+        </button>
+        <button class="year"
+          onclick="changeYear('re-reading', this)">
+        Re-reading
+        </button>
+        <button class="year"
+          onclick="changeYear('newlyadded', this)">
+        Newly Added
+        </button>
+        <button class="year"
+          onclick="changeYear('emotionallydamaged', this)">
+        Emotionally Damaged
+        </button>
+
+          <button class="year"
+          onclick="changeYear('dropped', this)">
+        Dropped
+        </button>
+      </div>
+
+      <!-- ==================================== -->
       <!-- THOUSAND YEARS -->
-      <!-- ======================= -->
+      <!-- ==================================== -->
       <div id="thousand" class="year-content active">
         <section class="favorite-panel">
-          <div class="favorite-years">
-            <button class="year active"
-              onclick="changeYear('thousand', this)">
-            Thousand Years Favorite
-            </button>
-            <button class="year"
-              onclick="changeYear('hundred', this)">
-            Hundred Years Favorite
-            </button>
-            <button class="year"
-              onclick="changeYear('ten', this)">
-            Recent Obsession
-            </button>
-            <button class="year"
-              onclick="changeYear('thousand', this)">
-            Currently Reading
-            </button>
-            <button class="year"
-              onclick="changeYear('hundred', this)">
-            Comfort Reads
-            </button>
-            <button class="year"
-              onclick="changeYear('hundred', this)">
-            Waiting for Updates
-            </button>
-            <button class="year"
-              onclick="changeYear('ten', this)">
-            Worth Re-reading
-            </button>
-            <button class="year"
-              onclick="changeYear('hundred', this)">
-            Emotional Damage
-            </button>
-            <button class="year"
-              onclick="changeYear('ten', this)">
-            Dropped
-            </button>
-          </div>
-
-          <h2 id="favoriteTitle">
-            Thousand Years Favorite
-          </h2>
-          <!-- Genre Tabs -->
+          
+          <h2>Thousand Years Favorite</h2>
           <div class="favorite-tabs">
-            <button class="tab active" onclick="showTab('primitive', this)">
-            Ancient Times
+            <button class="tab active"
+              onclick="showTab('farminggong1000', this)">
+            Farming Gong
             </button>
-            <button class="tab" onclick="showTab('historical', this)">
-            Interstellar
+            <button class="tab"
+              onclick="showTab('IG1000', this)">
+            Interstellar Gong
             </button>
-            <button class="tab" onclick="showTab('scifi', this)">
-            Sci-Fi
+            <button class="tab"
+              onclick="showTab('P1000', this)">
+            Primitive Gong
             </button>
-            <button class="tab" onclick="showTab('modern', this)">
-            Apocalypse
+            <button class="tab"
+              onclick="showTab('CFG1000', this)">
+            Cannon Fodder Gong
             </button>
-             <button class="tab active" onclick="showTab('primitive', this)">
-            Ancient Times
+               <button class="tab"
+              onclick="showTab('QWG1000', this)">
+            Quick Wearer Gong
             </button>
-            <button class="tab" onclick="showTab('historical', this)">
-            Interstellar
+               <button class="tab"
+              onclick="showTab('X1000', this)">
+           Xianxia Gong
             </button>
-            <button class="tab" onclick="showTab('scifi', this)">
-            Sci-Fi
-            </button>
-            <button class="tab" onclick="showTab('modern', this)">
-            Apocalypse
+               <button class="tab"
+              onclick="showTab('WG1000', this)">
+           Wealthy Gong
             </button>
           </div>
-          <!-- Primitive -->
-          <div id="primitive" class="tab-content active">
-            <div class="slider">
-              <img src="images/covers/LiJing.png">
-              <img src="images/covers/XieWucheng.png">
-              <img src="images/covers/Fu Yuting.png">
-              <img src="images/covers/Lu Changge.png">
-              <img src="images/covers/Bai Gong.png">
-              <img src="images/covers/Jifeng.png">
-            </div>
-          </div>
-          <!-- Historical -->
-          <div id="historical" class="tab-content">
-            
 
+          <div id="farminggong1000" class="tab-content active">
             <div class="slider">
-              <img src="images/covers/LiJing.png">
-              <img src="images/covers/XieWucheng.png">
-              <img src="images/covers/Fu Yuting.png">
-              <img src="images/covers/Lu Changge.png">
-              <img src="images/covers/Bai Gong.png">
-              <img src="images/covers/Jifeng.png">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
             </div>
           </div>
-          <!-- Sci-Fi -->
-          <div id="scifi" class="tab-content">
+
+          <div id="IG1000" class="tab-content">
             <div class="slider">
-              <img src="images/covers/LiJing.png">
-              <img src="images/covers/XieWucheng.png">
-              <img src="images/covers/Fu Yuting.png">
-              <img src="images/covers/Lu Changge.png">
-              <img src="images/covers/Bai Gong.png">
-              <img src="images/covers/Jifeng.png">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
             </div>
           </div>
-          <!-- Modern -->
-          <div id="modern" class="tab-content">
+
+          <div id="P1000" class="tab-content">
             <div class="slider">
-              <img src="images/covers/LiJing.png">
-              <img src="images/covers/XieWucheng.png">
-              <img src="images/covers/Fu Yuting.png">
-              <img src="images/covers/Lu Changge.png">
-              <img src="images/covers/Bai Gong.png">
-              <img src="images/covers/Jifeng.png">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+            </div>
+          </div>
+
+          <div id="CFG1000" class="tab-content">
+            <div class="slider">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+            </div>
+          </div>
+
+           <div id="QWG1000" class="tab-content">
+            <div class="slider">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+            </div>
+          </div>
+
+              <div id="X1000" class="tab-content">
+            <div class="slider">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+            </div>
+          </div>
+
+          <div id="WG1000" class="tab-content">
+            <div class="slider">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
             </div>
           </div>
         </section>
       </div>
-      <!-- ======================= -->
-      <!-- HUNDRED YEARS -->
-      <!-- ======================= -->
+
+      <!-- ==================================== -->
+      <!-- Beloved Gems -->
+      <!-- ==================================== -->
       <div id="hundred" class="year-content">
-        <section class="favorite-panel">
+       <section class="favorite-panel">
+          
           <h2>Hundred Years Favorite</h2>
-          <!-- Copy the same layout here -->
-          <p>Put your Hundred Years tabs and books here.</p>
+          <div class="favorite-tabs">
+            <button class="tab active"
+              onclick="showTab('farminggong100', this)">
+            Farming Gong
+            </button>
+            <button class="tab"
+              onclick="showTab('IG100', this)">
+            Interstellar Gong
+            </button>
+            <button class="tab"
+              onclick="showTab('P100', this)">
+            Primitive Gong
+            </button>
+            <button class="tab"
+              onclick="showTab('CFG100', this)">
+            Cannon Fodder Gong
+            </button>
+               <button class="tab"
+              onclick="showTab('QWG100', this)">
+            Quick Wearer Gong
+            </button>
+               <button class="tab"
+              onclick="showTab('X100', this)">
+           Xianxia Gong
+            </button>
+               <button class="tab"
+              onclick="showTab('WG100', this)">
+           Wealthy Gong
+            </button>
+          </div>
+
+          <div id="farminggong100" class="tab-content active">
+            <div class="slider">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+            </div>
+          </div>
+
+          <div id="IG100" class="tab-content">
+            <div class="slider">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+            </div>
+          </div>
+
+          <div id="P100" class="tab-content">
+            <div class="slider">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+            </div>
+          </div>
+
+          <div id="CFG100" class="tab-content">
+            <div class="slider">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+            </div>
+          </div>
+
+           <div id="QWG100" class="tab-content">
+            <div class="slider">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+            </div>
+          </div>
+
+              <div id="X100" class="tab-content">
+            <div class="slider">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+            </div>
+          </div>
+
+          <div id="WG100" class="tab-content">
+            <div class="slider">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+            </div>
+          </div>
         </section>
       </div>
-      <!-- ======================= -->
-      <!-- TEN YEARS -->
-      <!-- ======================= -->
-      <div id="ten" class="year-content">
+      <!-- ==================================== -->
+      <!-- HALL OF FAME-->
+      <!-- ==================================== -->
+      <div id="halloffame" class="year-content">
         <section class="favorite-panel">
-          <h2>Ten Years Favorite</h2>
-          <!-- Copy the same layout here -->
-          <p>Put your Ten Years tabs and books here.</p>
+          
+          <h2>Hall of Fame</h2>
+          <div class="favorite-tabs">
+            <button class="tab active"
+              onclick="showTab('BH10', this)">
+            Best Husband
+            </button>
+            <button class="tab"
+              onclick="showTab('MD10', this)">
+            Most Devoted
+            </button>
+            <button class="tab"
+              onclick="showTab('SO10', this)">
+            Strongest Overlord
+            </button>
+            <button class="tab"
+              onclick="showTab('WS10', this)">
+            Wife-Spoiling Gong
+            </button>
+               <button class="tab"
+              onclick="showTab('BPO10', this)">
+            Biggest Protective One
+            </button>
+
+            <button class="tab"
+              onclick="showTab('TYM10', this)">
+            The Yandere Man
+            </button>
+
+            <button class="tab"
+              onclick="showTab('MI10', this)">
+            Mr. Iconic
+            </button>
+          </div>
+
+          <div id="BH10" class="tab-content active">
+            <div class="slider">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+            </div>
+          </div>
+
+          <div id="MD10" class="tab-content">
+            <div class="slider">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+            </div>
+          </div>
+
+          <div id="SO10" class="tab-content">
+            <div class="slider">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+            </div>
+          </div>
+
+          <div id="WS10" class="tab-content">
+            <div class="slider">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+            </div>
+          </div>
+
+           <div id="BPO10" class="tab-content">
+            <div class="slider">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+            </div>
+          </div>
+
+              <div id="TYM10" class="tab-content">
+            <div class="slider">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+            </div>
+          </div>
+
+          <div id="MI10" class="tab-content">
+            <div class="slider">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+              <img src="images/chu.png">
+            </div>
+          </div>
+        </section>
+      </div>
+      <!-- ==================================== -->
+      <!-- RECENT -->
+      <!-- ==================================== -->
+      <div id="recent" class="year-content">
+        <section class="favorite-panel">
+          <h2>Recent Obsession</h2>
+          <!-- SAME LAYOUT -->
+        </section>
+      </div>
+      <!-- ==================================== -->
+      <!-- CURRENTLY READING -->
+      <!-- ==================================== -->
+      <div id="reading" class="year-content">
+        <section class="favorite-panel">
+          <h2>Currently Reading</h2>
+          <!-- SAME LAYOUT -->
+        </section>
+      </div>
+      <!-- ==================================== -->
+      <!-- WAITING -->
+      <!-- ==================================== -->
+      <div id="waiting" class="year-content">
+        <section class="favorite-panel">
+          <h2>Waiting for Updates</h2>
+          <!-- SAME LAYOUT -->
+        </section>
+      </div>
+      <!-- ==================================== -->
+      <!-- COMPLETED -->
+      <!-- ==================================== -->
+      <div id="completed" class="year-content">
+        <section class="favorite-panel">
+          <h2>Completed</h2>
+          <!-- SAME LAYOUT -->
+        </section>
+      </div>
+      <!-- ==================================== -->
+      <!-- REREADING -->
+      <!-- ==================================== -->
+      <div id="rereading" class="year-content">
+        <section class="favorite-panel">
+          <h2>Re-reading</h2>
+          <!-- SAME LAYOUT -->
         </section>
       </div>
     </section>
@@ -188,7 +495,6 @@
             <li>Transmigration</li>
             <li>Time Travel</li>
             <li>Book Wearer</li>
-            
             <li>Farming</li>
             <li>Zerg</li>
             <li>Ancient Marquis</li>
@@ -198,8 +504,6 @@
             <li>Primitive</li>
           </ul>
         </div>
-
-
         <!-- MIDDLE COLUMN -->
         <div class="novel-panel">
           <h3>Top Recommendation</h3>
@@ -260,7 +564,7 @@
             <p>Bai Gong</p>
           </div>
           <div class="mc-card">
-            <img src="images/JF.png" alt="Ji Feng">
+            <img src="images/Gong/JF.png" alt="Ji Feng">
             <p>Ji Feng</p>
           </div>
           <div class="mc-card">
@@ -330,6 +634,7 @@
       
       }
       
+      
       function showTab(tabName, button){
       
           document.querySelectorAll(".tab-content").forEach(tab=>{
@@ -347,51 +652,21 @@
       
       function changeYear(year, button){
       
-          document.querySelectorAll(".year")
-          .forEach(btn=>btn.classList.remove("active"));
+      document.querySelectorAll(".year-content").forEach(section=>{
+        section.classList.remove("active");
+      });
       
-          button.classList.add("active");
+      document.querySelectorAll(".year").forEach(btn=>{
+        btn.classList.remove("active");
+      });
       
-          const title=document.getElementById("favoriteTitle");
-          const slider=document.getElementById("favoriteSlider");
+      document.getElementById(year).classList.add("active");
       
-          if(year==="thousand"){
-      
-              title.innerHTML="Thousand Years Favorite";
-      
-              slider.innerHTML=`
-                  <img src="images/covers/LiJing.png">
-                  <img src="images/covers/Lu Changge.png">
-                  <img src="images/covers/Bai Gong.png">
-              `;
-      
-          }
-      
-          else if(year==="hundred"){
-      
-              title.innerHTML="Hundred Years Favorite";
-      
-              slider.innerHTML=`
-                  <img src="images/covers/Jifeng.png">
-                  <img src="images/covers/Fu Yuting.png">
-                  <img src="images/covers/XieWucheng.png">
-              `;
-      
-          }
-      
-          else{
-      
-              title.innerHTML="Ten Years Favorite";
-      
-              slider.innerHTML=`
-                  <img src="images/covers/Bai Gong.png">
-                  <img src="images/covers/Jifeng.png">
-              `;
-      
-          }
+      button.classList.add("active");
       
       }
       
+    
     </script>
   </body>
 </html>
